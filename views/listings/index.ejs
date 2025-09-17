@@ -1,0 +1,27 @@
+<% layout("/layouts/boilerplate") %> 
+<body>
+  <div class="container mt-4">
+    <h1 class="mb-4">All Hotels</h1>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+      <% for (let listing of allListings) { %>
+        <div class="col">
+          <div class="card h-100">
+            <a href="/listings/<%= listing._id %>" class="listing-link">
+              <img src="<%= listing.image?.url || 'https://via.placeholder.com/300x200?text=No+Image' %>" 
+                   class="card-img-top" 
+                   alt="listing image" 
+                   style="height: 20rem; width: 100%; object-fit: cover;" />
+            </a>
+            <div class="card-body">
+              <p class="card-text">
+                <b><%= listing.title %></b><br />
+                ₹<%= listing.price.toLocaleString("en-IN") %> / night
+              </p>
+            </div>
+          </div>
+        </div>
+      <% } %>
+    </div>
+  </div>
+</body>
