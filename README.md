@@ -40,7 +40,7 @@ StayEase is a **full-stack travel booking platform** designed to help users expl
 Clone the repository:  
 
 ```bash
-git clone https://github.com/Akash-75-76/StayEase1.git
+git clone https://github.com/prajvl/StayEase.git
 cd StayEase1
 npm install
 npm start
