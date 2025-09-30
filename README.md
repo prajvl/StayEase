@@ -1,4 +1,4 @@
-# 🧳 Wanderlust – Full-Stack Travel Stay Platform  
+# 🧳 StayEase – Full-Stack Travel Stay Platform  
 
 [![License](https://img.shields.io/badge/License-MIT-green)](./LICENSE)  
 ![Node.js](https://img.shields.io/badge/Backend-Node.js-green)  
@@ -6,10 +6,10 @@
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen)  
 ![Render](https://img.shields.io/badge/Deployed%20On-Render-blue)  
 
-Wanderlust is a **full-stack travel booking platform** designed to help users explore, search, and book stays across different destinations. Built using the **MVC architecture**, it supports secure authentication, form validation, and smooth booking flows.  
+StayEase is a **full-stack travel booking platform** designed to help users explore, search, and book stays across different destinations. Built using the **MVC architecture**, it supports secure authentication, form validation, and smooth booking flows.  
 
-🔗 **Live Demo**: [Wanderlust on Render](https://wanderlust1-hsm4.onrender.com/)  
-📂 **Source Code**: [GitHub Repository](https://github.com/Akash-75-76/WanderLust1)  
+🔗 **Live Demo**: [StayEase on Render](https://wanderlust1-hsm4.onrender.com/)  
+📂 **Source Code**: [GitHub Repository](https://github.com/prajvl/StayEase)  
 
 ---
 
@@ -40,8 +40,8 @@ Wanderlust is a **full-stack travel booking platform** designed to help users ex
 Clone the repository:  
 
 ```bash
-git clone https://github.com/Akash-75-76/WanderLust1.git
-cd WanderLust1
+git clone https://github.com/Akash-75-76/StayEase1.git
+cd StayEase1
 npm install
 npm start
 
